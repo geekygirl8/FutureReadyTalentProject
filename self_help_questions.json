@@ -1,0 +1,48 @@
+{
+  "gad7Questions":[
+    "Feeling nervous, anxious or on edge",
+    "Not being able to stop or control worrying",
+    "Worrying too much about different things",
+    "Trouble relaxing",
+    "Being so restless that it is hard to sit still",
+    "Becoming easily annoyed or irritable",
+    "Feeling afraid as if something awful might happen"
+  ],
+  
+  "phq9Questions": [
+    "Little interest or pleasure in doing things",
+    "Feeling down, depressed, or hopeless",
+    "Trouble falling or staying asleep, or sleeping too much",
+    "Feeling tired or having little energy",
+    "Poor appetite or overeating",
+    "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+    "Trouble concentrating on things, such as reading the newspaper or watching television",
+    "Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual",
+    "Thoughts that you would be better off dead or of hurting yourself in some way"
+  ],
+  "phq15Questions": [
+	"Stomach pain",
+	"Back pain",
+	"Pain in your arms, legs, or joints (knees, hips, etc)",
+	"Feeling tired or having little energy",
+	"Trouble falling or staying asleep, or sleeping too much",
+	"Menstrual cramps or other problems with your periods",
+	"Pain or problems during sexual intercourse",
+	"Headaches",
+	"Chest pain",
+	"Dizziness",
+	"Fainting spells",
+	"Feeling your heart pound or race",
+	"Shortness of breath",
+	"Constipation, loose bowels, or diarrhea",
+	"Nausea, gas, or indigestion"
+
+  ],
+  "anxietyAttacks": [
+    "In the last 4 weeks, have you had an anxiety attack - suddenly feeling fear or panic?",
+	"Has this ever happened before?",
+	"Do some of these attacks come suddenly out of the blue - that is, in situations where you don’t expect to be nervous or uncomfortable?",
+	"Do these attacks bother you a lot or are you worried about having another attack?",
+	"During your last bad anxiety attack, did you have symptoms like shortness of breath, sweating, or your heart racing, pounding or skipping?"
+  ]
+}
