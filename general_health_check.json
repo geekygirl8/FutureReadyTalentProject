@@ -1,0 +1,451 @@
+ {
+  "version": 3,
+  "steps": [
+    {
+      "id": "3af09fb3237b-f324264d414d3c79-46a9",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 520,
+        "yLocation": 60,
+        "next": "43fdfcb4f21f-363ed812c27bdf21-c515"
+      },
+      "text": "Hello, Good Morning!",
+      "variable": "hello",
+      "submitTitle": "Submit",
+      "label": "Hello",
+      "stringId": "stringId_40243efe73c0964b"
+    },
+    {
+      "id": "0492acbf1737-61195a565e24c79f-c093",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 180,
+        "yLocation": 294,
+        "next": "b4ee5fa86bb1-26b9ad0ede0603ec-e2cd"
+      },
+      "text": "What is your problem?",
+      "variable": "hello",
+      "submitTitle": "Submit",
+      "label": "Problem",
+      "stringId": "stringId_d058f61c1d267a7b"
+    },
+    {
+      "id": "f4d08218fca6-e43effa14f7c9888-797b",
+      "type": "prompt",
+      "dataType": "number",
+      "designer": {
+        "xLocation": 60,
+        "yLocation": 280,
+        "next": "0492acbf1737-61195a565e24c79f-c093"
+      },
+      "text": "How old are you?",
+      "variable": "age",
+      "submitTitle": "Submit",
+      "maxRetries": 3,
+      "stringId": "stringId_13e575be866ecf5a"
+    },
+    {
+      "id": "43fdfcb4f21f-363ed812c27bdf21-c515",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 466,
+        "yLocation": 160,
+        "next": "7655a9fe71c1-ddb8506312970fa2-a41e"
+      },
+      "text": "Nice! How Can I help you?",
+      "variable": "help",
+      "submitTitle": "Submit",
+      "stringId": "stringId_81fa0e8843a8e8eb"
+    },
+    {
+      "id": "b4ee5fa86bb1-26b9ad0ede0603ec-e2cd",
+      "type": "yesnoprompt",
+      "dataType": "boolean",
+      "designer": {
+        "xLocation": 154,
+        "yLocation": 380,
+        "next": "8e1649e5d089-da90386864b035ac-94d5"
+      },
+      "text": "Do you Consulted Doctor before?",
+      "variable": "consulted",
+      "stringId": "stringId_4a69acb4b75eee66",
+      "targetStepId": "9d93833a3145-627c9192330923b4-6994"
+    },
+    {
+      "id": "000b63791a2d-e7e1f67c0f2276b5-17a2",
+      "type": "prompt",
+      "dataType": "boolean",
+      "designer": {
+        "xLocation": 180,
+        "yLocation": 200,
+        "next": "f4d08218fca6-e43effa14f7c9888-797b"
+      },
+      "text": "That's! Really Interesting....",
+      "variable": "interest",
+      "submitTitle": "Submit",
+      "stringId": "stringId_2186f3b1a5a770d0"
+    },
+    {
+      "id": "8e1649e5d089-da90386864b035ac-94d5",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 60,
+        "yLocation": 500,
+        "next": "1e37ed380d12-fec2217aa3aa9b42-eb0d"
+      },
+      "text": "Please! Try to consult a doctor.",
+      "variable": "consult",
+      "submitTitle": "Submit",
+      "stringId": "stringId_e46cb7d1dd37ef7d"
+    },
+    {
+      "id": "1e37ed380d12-fec2217aa3aa9b42-eb0d",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 51,
+        "yLocation": 628,
+        "next": "59625d4c13d7-0e9bf9a50e34c5c7-a7fc"
+      },
+      "text": "You Welcome! ",
+      "variable": "welcome",
+      "submitTitle": "Submit",
+      "stringId": "stringId_c39a2d08514126aa"
+    },
+    {
+      "id": "9d93833a3145-627c9192330923b4-6994",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 288,
+        "yLocation": 380,
+        "next": "4f6f45348dc2-e3a083ce569c0b6e-70b8"
+      },
+      "text": "Nice! What is the doctor told to your problem?",
+      "variable": "problem",
+      "submitTitle": "Submit",
+      "stringId": "stringId_24f5078cfb090315"
+    },
+    {
+      "id": "4f6f45348dc2-e3a083ce569c0b6e-70b8",
+      "type": "yesnoprompt",
+      "dataType": "boolean",
+      "designer": {
+        "xLocation": 353,
+        "yLocation": 440,
+        "next": "8c60ef9eea9d-d9f8a4754ca6e05a-ecab"
+      },
+      "maxRetries": 2,
+      "text": "Are you following the Precautions?",
+      "variable": "precautions",
+      "stringId": "stringId_7f396fe47ed1415f",
+      "targetStepId": "2744aa2ac2dd-9937a1e6afa3d7fa-df5e"
+    },
+    {
+      "id": "8c60ef9eea9d-d9f8a4754ca6e05a-ecab",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 300,
+        "yLocation": 580,
+        "next": "59625d4c13d7-0e9bf9a50e34c5c7-a7fc"
+      },
+      "text": "Please Try to follow and go through the Prescription",
+      "variable": "prescription",
+      "submitTitle": "Submit",
+      "stringId": "stringId_747a528aeac5a64a"
+    },
+    {
+      "id": "2744aa2ac2dd-9937a1e6afa3d7fa-df5e",
+      "type": "prompt",
+      "dataType": "boolean",
+      "designer": {
+        "xLocation": 514,
+        "yLocation": 340,
+        "next": "02e35008cc49-43634bb146d5ea4b-ec23"
+      },
+      "text": "Okay!",
+      "variable": "normal",
+      "submitTitle": "Submit",
+      "stringId": "stringId_d46c7497431bf0d9"
+    },
+    {
+      "id": "02e35008cc49-43634bb146d5ea4b-ec23",
+      "type": "prompt",
+      "dataType": "boolean",
+      "designer": {
+        "xLocation": 540,
+        "yLocation": 440,
+        "next": "7b5357c59e97-1c63de52090b0b16-9255"
+      },
+      "text": "Is Anything are you willing to message?",
+      "variable": "willing",
+      "submitTitle": "Submit",
+      "stringId": "stringId_8d6162921ed08e23"
+    },
+    {
+      "id": "7b5357c59e97-1c63de52090b0b16-9255",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 500,
+        "yLocation": 546,
+        "next": "3eeeed1609e9-44e3a832ff28bcdb-88e5"
+      },
+      "text": "Okay Then, What was the reason it is?",
+      "variable": "reason",
+      "submitTitle": "Submit",
+      "stringId": "stringId_a91835b9eb0f6b75"
+    },
+    {
+      "id": "3eeeed1609e9-44e3a832ff28bcdb-88e5",
+      "type": "statement",
+      "designer": {
+        "xLocation": 547,
+        "yLocation": 640,
+        "next": "91fffcfc6af5-8eead500e69891ff-a81f"
+      },
+      "text": "Looks Interesting! ",
+      "stringId": "stringId_be5e3502da750dbc"
+    },
+    {
+      "id": "91fffcfc6af5-8eead500e69891ff-a81f",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 527,
+        "yLocation": 733,
+        "next": "b423eef992ab-b5bb0a0807e5e654-9e77"
+      },
+      "text": "What are types of information do you want currently?",
+      "variable": "information",
+      "submitTitle": "Submit",
+      "stringId": "stringId_7fae1df866a3e19e"
+    },
+    {
+      "id": "b423eef992ab-b5bb0a0807e5e654-9e77",
+      "type": "statement",
+      "designer": {
+        "xLocation": 467,
+        "yLocation": 800,
+        "next": "fdeaa31b8363-cd5c0a6ac167447d-810e"
+      },
+      "text": "Mainly Heart Problems are based on Patient Symptoms",
+      "stringId": "stringId_34e8bda9e77d664b"
+    },
+    {
+      "id": "d251563b716d-94f93ce09f8d0364-fcd3",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 900,
+        "yLocation": 280,
+        "next": "ab16997c2e8e-98fbfc1da152f940-9aaa"
+      },
+      "text": "Blood Vessels:-\r\nChest pain, chest tightness, chest pressure and chest discomfort,Shortness of breath,ain, numbness, weakness or coldness in your legs.\r\n\r\n Abnormal Heartbeats:-\r\nFluttering in Chest,Racing heartbeat,Slow heartbeat,Chest pain,Shortness of breath.\r\n\r\n Heart Defects:-\r\n Pale gray or blue skin color,Swelling in the legs, abdomen,shortness of breath during feedings.\r\n\r\n Diseased Heart Muscle:\r\nBreathlessness with activity,Swelling of the legs,Fatigue,Irregular heartbeats that feel rapid,Dizziness.\r\n\r\nHeart Infection:-\r\nFever,Shortness of breath,Weakness,Swelling in your legs,Skin rashes.\r\n\r\nHeart Valve Problems:-\r\nFatigue,Shortness of breath,Irregular heartbeat,Swollen feet,Chest pain.\r\n",
+      "variable": "symptoms, problems",
+      "submitTitle": "Submit",
+      "stringId": "stringId_85926db652b01ffe",
+      "label": "Symptoms of Heart Diseases"
+    },
+    {
+      "id": "fdeaa31b8363-cd5c0a6ac167447d-810e",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 480,
+        "yLocation": 880,
+        "next": "d251563b716d-94f93ce09f8d0364-fcd3"
+      },
+      "text": "Blood Vessel Disease like wise Coronary Artery Disease,Heart Rhythm Disease,Heart Valve Disease,Disease of Heart Muscle,Heart Infection",
+      "variable": "heart_diseases",
+      "submitTitle": "Submit",
+      "label": "Various Heart Diseases",
+      "stringId": "stringId_a16deee042ee7390"
+    },
+    {
+      "id": "ab16997c2e8e-98fbfc1da152f940-9aaa",
+      "type": "statement",
+      "designer": {
+        "xLocation": 1040,
+        "yLocation": 200,
+        "next": "c97e3b7c7b7e-0f063bbd5a6b3554-dcd9"
+      },
+      "text": "Yeah Right! Is there anything else to ask?",
+      "label": "Questioning",
+      "stringId": "stringId_bf87f75abc31b4c7"
+    },
+    {
+      "id": "e034913bf8dd-820dffb160aea821-a2c5",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 1060,
+        "yLocation": 488,
+        "next": "38910a258bc8-939573fdd37852a4-b832"
+      },
+      "text": "Congenital Heart Defects,Cardiomyopathy,Heart Infection,Valvular Heart Disease,",
+      "variable": "causes_heart",
+      "submitTitle": "Submit",
+      "label": "Causes  of Heart Diseases",
+      "stringId": "stringId_a5bd41a22c6f2925"
+    },
+    {
+      "id": "e39c3b8224b2-410954de6f6b37be-1162",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 1120,
+        "yLocation": 660,
+        "next": "aa9baf14da4a-d5db450540e53d86-d2b6"
+      },
+      "text": "\r\nDo not smoke,Maintain a healthy weight,Reduce and manage stress,Practice good hygiene.",
+      "variable": "preventions_heart",
+      "submitTitle": "Submit",
+      "label": "Preventions",
+      "stringId": "stringId_25e375b26c8d5080"
+    },
+    {
+      "id": "aa9baf14da4a-d5db450540e53d86-d2b6",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 1129,
+        "yLocation": 760,
+        "next": "296d2e6422b2-66ae726e41a049b1-8ea5"
+      },
+      "text": "You Welcome\r\n",
+      "variable": "welcome",
+      "submitTitle": "Submit",
+      "label": "Welcome",
+      "stringId": "stringId_33cc3d06c4afd31e"
+    },
+    {
+      "id": "296d2e6422b2-66ae726e41a049b1-8ea5",
+      "type": "beginScenario",
+      "designer": {
+        "xLocation": 1155,
+        "yLocation": 832,
+        "next": "b8f8be97b288-dcb2d6206924d36c-3ab2"
+      },
+      "scenario": "/builtin/feedback",
+      "args": "Feedback for HeartBot",
+      "variable": "feedback_heartbot"
+    },
+    {
+      "id": "7655a9fe71c1-ddb8506312970fa2-a41e",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 214,
+        "yLocation": 86,
+        "next": "000b63791a2d-e7e1f67c0f2276b5-17a2"
+      },
+      "text": "Hello, I am a HeartBot. \r\nMainly depends on heart problems.",
+      "variable": "heart_bot",
+      "submitTitle": "Submit",
+      "stringId": "stringId_4b9b4497fbdfa1f3"
+    },
+    {
+      "id": "00224725958f-c96e108e6f1cdd1d-8450",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 1060,
+        "yLocation": 408,
+        "next": "e034913bf8dd-820dffb160aea821-a2c5"
+      },
+      "text": "And also There are various causes for heart problem",
+      "variable": "causes_heart_problem",
+      "submitTitle": "Submit",
+      "label": "Various Causes",
+      "stringId": "stringId_156b34f06d2a2369"
+    },
+    {
+      "id": "38910a258bc8-939573fdd37852a4-b832",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 1131,
+        "yLocation": 548,
+        "next": "a4ccd19a0f31-eeb5f1de9e0f4870-185b"
+      },
+      "text": "Age,Sex,Family History,Smoking,Poor Diet,High Blood Pressure,\r\nHigh blood cholesterol levels,Diabetes,Obesity,Physical inactivity,Stress,Poor dental health.\r\n\r\n",
+      "variable": "risk_factors",
+      "submitTitle": "Submit",
+      "label": "Risk Factors",
+      "stringId": "stringId_6b78e3073f9ed94a"
+    },
+    {
+      "id": "a4ccd19a0f31-eeb5f1de9e0f4870-185b",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 1258,
+        "yLocation": 592,
+        "next": "e39c3b8224b2-410954de6f6b37be-1162"
+      },
+      "text": "Heart failure,Heart attack,Stroke,Aneurysm,Peripheral artery disease,Sudden cardiac arrest",
+      "variable": "complications_heart",
+      "submitTitle": "Submit",
+      "label": "Complications",
+      "stringId": "stringId_82529f76b13db6dc"
+    },
+    {
+      "id": "b8f8be97b288-dcb2d6206924d36c-3ab2",
+      "type": "statement",
+      "designer": {
+        "xLocation": 1189,
+        "yLocation": 920
+      },
+      "text": "This bot has deleted all the data that it learned about you",
+      "label": "BotData",
+      "stringId": "stringId_e9365189a1ba3458"
+    },
+    {
+      "id": "59625d4c13d7-0e9bf9a50e34c5c7-a7fc",
+      "type": "statement",
+      "designer": {
+        "xLocation": 208,
+        "yLocation": 760
+      },
+      "text": "Okay Good Bye",
+      "label": "Goodbye",
+      "stringId": "stringId_68e31da64c0c13a2"
+    },
+    {
+      "id": "7f5203d73e95-7f81a4a230ba3f3d-0764",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 1154,
+        "yLocation": 340,
+        "next": "00224725958f-c96e108e6f1cdd1d-8450"
+      },
+      "text": "Okay",
+      "variable": "okay_heart",
+      "submitTitle": "Submit",
+      "label": "Okay",
+      "stringId": "stringId_26b63f278101527e"
+    },
+    {
+      "id": "c97e3b7c7b7e-0f063bbd5a6b3554-dcd9",
+      "type": "prompt",
+      "dataType": "string",
+      "designer": {
+        "xLocation": 1060,
+        "yLocation": 260,
+        "next": "7f5203d73e95-7f81a4a230ba3f3d-0764"
+      },
+      "text": "okay Thats fine",
+      "variable": "okay",
+      "submitTitle": "Submit",
+      "label": "Okay",
+      "stringId": "stringId_7232215f8969c616"
+    }
+  ]
+}
